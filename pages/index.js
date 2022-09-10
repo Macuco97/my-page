@@ -2,8 +2,12 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/header'
 import Navbar from '../components/navbar'
+import { useState } from 'react'
 
 export default function Home() {
+  const [activeImage, setActiveImage] = useState('manutencao')
+  
+
   return (
     <div className={`flex flex-col`}>
       <Head>
@@ -13,7 +17,10 @@ export default function Home() {
       </Head>
       <Header/>
       <div className = {`flex flex-row`}>
-        <Navbar/>
+        <Navbar
+        activeImage = {activeImage}
+        setActiveImage = {data => setActiveImage(data)}
+        />
       </div>
     </div>
 

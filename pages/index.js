@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/header'
 import Navbar from '../components/navbar'
+import Contain from '../components/contain'
 import { useState } from 'react'
 
 export default function Home() {
@@ -16,12 +17,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>
-      <div className = {`flex flex-row`}>
-        <Navbar
+      <Navbar
         activeImage = {activeImage}
         setActiveImage = {data => setActiveImage(data)}
-        />
-      </div>
+      />
+      <Contain/>
     </div>
 
   )

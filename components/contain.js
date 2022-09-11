@@ -1,14 +1,14 @@
 export default function Contain({activeImage, setActiveImage}) {
 const container = `mt-12 flex flex-col mx-8`
-const manutencaoContents = `overflow-hidden ${activeImage === "manutencao" ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0`}`
-const siteContents = `overflow-hidden ${activeImage === 'site' ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0`}`
+const manutencaoContents = `shadow overflow-hidden ${activeImage === "manutencao" ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0`}`
+const siteContents = `shadow overflow-hidden ${activeImage === 'site' ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0`}`
 
-const manutencaoTitle = "text-xl my-5"
+const title = "text-xl text-center"
 const list = "list-disc font-serif list-inside"
     return (
         <div className = {container}>
             <div className = {manutencaoContents}>
-                <h3 className = {manutencaoTitle}>
+                <h3 className = {title}>
                     MANUTENÇÃO DE COMPUTADORES
                 </h3>
                 <ul className = {list}>
@@ -24,12 +24,18 @@ const list = "list-disc font-serif list-inside"
                 </ul>
             </div>
             <div className = {siteContents}>
-                <h3>
-                    CRIAÇÃO DE SITE
+                <h3 className = {title}>
+                    CRIAÇÃO DE WEBSITE
                 </h3>
                 <ul>
                     <li>
-
+                        Criação de sites modernos
+                    </li>
+                    <li>
+                        Otimização do SEO para o site aparecer em melhores posições no Rankeamento da Google
+                    </li>
+                    <li>
+                         Criação de feature performáticas conforme a necessidade do cliente
                     </li>
                 </ul>
             </div>

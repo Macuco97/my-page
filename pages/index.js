@@ -21,7 +21,10 @@ export default function Home() {
         activeImage = {activeImage}
         setActiveImage = {data => setActiveImage(data)}
       />
-      <Contain/>
+      <Contain
+        activeImage = {activeImage}
+        setActiveImage = {data => setActiveImage(data)}
+      />
     </div>
 
   )

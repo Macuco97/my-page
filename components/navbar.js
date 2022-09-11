@@ -2,10 +2,10 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 export default function Navbar({activeImage, setActiveImage}) {
-    const navbar = `mt-8 flex flex-row w-screen justify-center`
-    const imageManutencao = activeImage === 'manutencao' ? ' duration-500 translate-y-6 shadow' : 'duration-500 translate-y-0 opacity-50'
-    const imageSite = activeImage === 'site' ? 'duration-500 translate-y-6 shadow' : 'duration-500 translate-y-0 opacity-50'
-    const imageDisc = activeImage === 'disc' ? 'duration-500 translate-y-6 shadow' : 'opacity-50 duration-500 translate-y-0'
+    const navbar = `mt-8 flex flex-row w-screen justify-center self-end`
+    const imageManutencao = activeImage === 'manutencao' ? ' duration-500 translate-y-6' : 'duration-500 translate-y-0 opacity-50'
+    const imageSite = activeImage === 'site' ? 'duration-500 translate-y-6 ' : 'duration-500 translate-y-0 opacity-50'
+    const imageDisc = activeImage === 'disc' ? 'duration-500 translate-y-6 ' : 'opacity-50 duration-500 translate-y-0'
 
     
 

@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '../components/header'
 import Navbar from '../components/navbar'
 import Contain from '../components/contain'
+import Footer from '../components/footer'
 import { useState } from 'react'
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
         activeImage = {activeImage}
         setActiveImage = {data => setActiveImage(data)}
       />
+      <Footer/>
     </div>
 
   )

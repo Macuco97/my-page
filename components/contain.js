@@ -1,57 +1,36 @@
 export default function Contain({activeImage, setActiveImage}) {
-const container = `flex flex-col mx-8 self-start`
-const manutencaoContents = `mt-4 overflow-hidden ${activeImage === "manutencao" ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0`}`
-const siteContents = `overflow-hidden ${activeImage === 'site' ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0`}`
-const discContents = `overflow-hidden ${activeImage === 'disc' ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0`}`
-const title = "text-xl text-center"
-const list = "list-disc font-serif list-inside"
+const container = `flex flex-box justify-center justify-items-center mx-8 bg-slate-200 shadow-slate-500/50 shadow-2xl p-8 mt-12`
+const manutencaoContents = `overflow-hidden ${activeImage === "manutencao" ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0 max-w-0`}`
+const siteContents = `overflow-hidden ${activeImage === 'site' ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0 max-w-0`}`
+const discContents = `overflow-hidden ${activeImage === 'disc' ? `transition opacity-100 duration-500` : `transition opacity-0 max-h-0 max-w-0`}`
+const title = "text-xl mb-2 text-center underline"
+
     return (
-        <div className = {container}>
+        <section className = {container}>
             <div className = {manutencaoContents}>
                 <h3 className = {title}>
                     MANUTENÇÃO DE COMPUTADORES
                 </h3>
-                <ul className = {list}>
-                    <li>
-                        MANUTENÇÃO PREVENTIVA E CORRETIVA DE COMPUTADORES E NOTEBOOKS
-                    </li>
-                    <li>
-                        FORMATAÇÃO COM INSTALAÇÃO DE WINDOWS (XP, 7, 10, 11) OU OUTROS SISTEMAS OPERACIONAIS
-                    </li>
-                    <li>
-                        INSTAÇÃO DE APLICATIVOS E SOFTWARES
-                    </li>
-                </ul>
+                <p>
+                    Manutenção preventiva e corretiva de computadores e notebooks com instalação do Windows 10 ou outro da preferência do cliente.
+                </p>
             </div>
             <div className = {siteContents}>
                 <h3 className = {title}>
                     CRIAÇÃO DE WEBSITE
                 </h3>
-                <ul className = {list}>
-                    <li>
-                        Criação de sites modernos
-                    </li>
-                    <li>
-                        Otimização do SEO para o site aparecer em melhores posições no Rankeamento da Google
-                    </li>
-                    <li>
-                         Criação de feature performáticas conforme a necessidade do cliente
-                    </li>
-                </ul>                
+                <p>
+                    Criação de sistemas modernos otimizados para rankeamento nas melhores posições nas pesquisas do Google. 
+                </p>
             </div>
             <div className = {discContents}>
-            <ul className = {list}>
                 <h3 className = {title}>
                     RECUPERAÇÃO DE DADOS
                 </h3>
-                    <li>
-                        Recuperação de fotos e vídeos deletados
-                    </li>
-                    <li>
-                        Recuperação de arquivos em pendrive, ou mídias externas corrompidas
-                    </li>
-                </ul>
+                <p>
+                    Recuperação de fotos, e arquivos deletados ou corrompidos tanto de mídias externas como do computador
+                </p>
             </div>
-        </div>
+        </section>
     )
 }

@@ -3,10 +3,10 @@ import { useState } from 'react'
 
 export default function Navbar({activeImage, setActiveImage}) {
     const navbar = `mt-8 flex flex-row w-screen justify-center self-end`
-    const imageManutencao = activeImage === 'manutencao' ? ' duration-500 translate-y-6' : 'duration-500 translate-y-0 opacity-50'
-    const imageSite = activeImage === 'site' ? 'duration-500 translate-y-6 ' : 'duration-500 translate-y-0 opacity-50'
-    const imageDisc = activeImage === 'disc' ? 'duration-500 translate-y-6 ' : 'opacity-50 duration-500 translate-y-0'
-
+    const imageManutencao = activeImage === 'manutencao' ? ' duration-500 translate-y-6 shadow-2xl shadow-green-500/50' : 'shadow-2xl duration-500 translate-y-0 opacity-50'
+    const imageSite = activeImage === 'site' ? 'duration-500 translate-y-6 shadow-2xl shadow-green-500/50' : 'shadow-2xl duration-500 translate-y-0 opacity-50'
+    const imageDisc = activeImage === 'disc' ? 'duration-500 translate-y-6 shadow-2xl shadow-green-500/50' : 'shadow-2xl opacity-50 duration-500 translate-y-0'
+    const hr = "border-5 border-solid"
     
 
     return (
@@ -20,6 +20,7 @@ export default function Navbar({activeImage, setActiveImage}) {
                 <span className = {imageDisc} onClick  ={() => setActiveImage("disc")}>
                     <Image src ='/recicle-trash.png' alt = 'Imagem de um site' width = '90' height = '70' />
                 </span>
+                <hr className = {hr}/>
         </navbar>
 
     )

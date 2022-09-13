@@ -16,7 +16,8 @@ export default function Home() {
         <title>InfoTech Soluções</title>
         <meta name="description" content="Manutenção de Computadores e Desenvolvimento de Sites" />
         <meta property="og:image" content="./public/web-site.png" />
-        
+        <meta property="og:image:secure_url" content="./public/web-site.png" />
+
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>

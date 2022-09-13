@@ -8,7 +8,7 @@ export default function Header() {
                InfoTech Soluções
             </div>
             <div className = {headerSubTitle}>
-                VEJA ABAIXO A SOLUÇÃO DESEJADA
+                VEJA ABAIXO A SOLUÇÃO
             </div>
         </header>
     )

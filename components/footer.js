@@ -9,7 +9,7 @@ const footer = "flex flex-row justify-center"
     <footer className = {footer}>
         <Link href = "http://wa.me/5521999611299">
             <span className = "ml-72 mt-12 animate-bounce">
-                <Image className = {``} src = "/whatsapp-logo.png" width = "50" height = "50"/>
+                <Image className = {``} src = "/whatsapp.svg" width = "50" height = "50"/>
             </span>
         </Link>
     </footer>

@@ -15,11 +15,11 @@ export default function Home() {
       <Head>
         <title>InfoTech Soluções</title>
         <meta name="description" content="Manutenção de Computadores e Desenvolvimento de Sites" />
-        <meta property="og:image" content="https://my-page-macuco97.vercel.app/api/website.jpg" />
+        <meta property="og:image" itemprop="image" content="https://my-page-macuco97.vercel.app/api/website.jpg" />
         <meta property="og:image:secure_url" content="https://my-page-macuco97.vercel.app/api/website.jpg" />
         <meta property="og:image:type" content="image/jpg" />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
 
         <link rel="icon" href="/favicon.ico" />
       </Head>

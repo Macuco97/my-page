@@ -15,7 +15,7 @@ export default function Home() {
       <Head>
         <title>InfoTech Soluções</title>
         <meta name="description" content="Manutenção de Computadores e Desenvolvimento de Sites" />
-        <meta property="og:image" content="//cdn.example.com/uploads/images/webpage_300x200.png" />
+        <meta property="og:image" content="https://drive.google.com/file/d/1kEV9Li5Ujg2OeM6b09hYijmQe7ySTM6F/view?usp=sharing" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>

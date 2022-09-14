@@ -1,39 +1,21 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import Header from '../components/header'
-import Navbar from '../components/navbar'
-import Contain from '../components/contain'
+import head from 'next/head'
+import Button from '../components/button'
 import Footer from '../components/footer'
-import { useState } from 'react'
 
 export default function Home() {
-  const [activeImage, setActiveImage] = useState('manutencao')
-  
-
-  return (
-    <div className={`flex flex-col bg-slate-100 h-screen`}>
-      <Head>
-        <title>InfoTech Soluções</title>
-        <meta name="description" content="Manutenção de Computadores e Desenvolvimento de Sites" />
-        <meta property="og:image" itemprop="image" content="https://my-page-macuco97.vercel.app/api/website.jpg" />
-        <meta property="og:image:secure_url" content="https://my-page-macuco97.vercel.app/api/website.jpg" />
-        <meta property="og:image:type" content="image/jpg" />
-        <meta property="og:image:width" content="300" />
-        <meta property="og:image:height" content="300" />
-
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Header/>
-      <Navbar
-        activeImage = {activeImage}
-        setActiveImage = {data => setActiveImage(data)}
-      />
-      <Contain
-        activeImage = {activeImage}
-        setActiveImage = {data => setActiveImage(data)}
-      />
-      <Footer/>
-    </div>
-
-  )
+    return (
+        <div className = {`container p-8 bg-slate-100 min-h-screen min-w-screen`}>
+            <div className = {`font-semibold font-mono`}>    
+                <div className = {`text-4xl`}>Olá !</div>
+                <div className = {`text-2xl`}>Seja bem-vindo</div>
+                <div className = {`text-xl`}>Aqui é o local onde você encontrar soluções em TI para alavancar seu negócios</div>
+                <div className = {`underline underline-offset-8 mt-10`}>Veja mais sobre</div>
+                <div className = {`mt-4`}>
+                    <Button>manutenção de computadores</Button>
+                    <Button>desenvolvimento de sites</Button>
+                </div>
+                <Footer/>
+            </div>
+        </div>
+    )
 }

@@ -20,7 +20,6 @@ export default function Home() {
         <meta property="og:image:type" content="image/jpg" />
         <meta property="og:image:width" content="300" />
         <meta property="og:image:height" content="300" />
-
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header/>

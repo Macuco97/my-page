@@ -1,5 +1,5 @@
 import Card from '../components/card.js'
-import Footer from "../components/cards.js"
+import Footer from "../components/footer.js"
 
 export default function Webdev() {
     return ( 

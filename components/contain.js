@@ -18,10 +18,10 @@ const title = "text-xl mb-2 text-center underline"
                 </div>
                 <div className = {siteContents}>
                     <h3 className = {title}>
-                        CRIAÇÃO DE WEBSITE
+                        GERÊNCIA DE SOFTWARE
                     </h3>
                     <p>
-                        Criação de sistemas modernos otimizados para rankeamento nas melhores posições nas pesquisas do Google. 
+                        Download e instalação de softwares diversos, remoção de vírus e malware e validação do sistema operacional. 
                     </p>
                 </div>
                 <div className = {discContents}>
@@ -29,7 +29,7 @@ const title = "text-xl mb-2 text-center underline"
                         RECUPERAÇÃO DE DADOS
                     </h3>
                     <p>
-                        Recuperação de fotos, e arquivos deletados ou corrompidos tanto de mídias externas como do computador
+                        Recuperação de fotos, e arquivos deletados ou corrompidos tanto de mídias externas como do computador.
                     </p>
                 </div>
             </section>

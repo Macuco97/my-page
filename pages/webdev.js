@@ -1,4 +1,5 @@
 import Card from '../components/card.js'
+import Footer from "../components/cards.js"
 
 export default function Webdev() {
     return ( 
@@ -23,8 +24,7 @@ export default function Webdev() {
                     <div>Notebook</div>
                     <div className = {`font-medium`}>Site criado para realizar anotações de senhas. Layout customizado de acordo com as necessidades do cliente</div>
                 </Card>
-                
-                
+                <Footer/>                
             </div>
         </div>
     )

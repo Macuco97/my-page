@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 
 export default function footer() {
-const footer = "flex flex-row justify-center fixed bottom-2exite right-4"
+const footer = "flex flex-row justify-center fixed bottom-2 right-4"
     return ( 
     <footer className = {footer}>
         <Link href = "http://wa.me/5521999611299">

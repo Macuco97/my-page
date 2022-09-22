@@ -11,7 +11,7 @@ export default function Card({children, href}) {
                 </div>
                 {href && 
                 <Link href = {href}>
-                    <div className = {`mb-2 ml-4 text-blue-500 underline underline-offset-2`}>
+                    <div className = {`mb-2 ml-4 text-blue-500 underline underline-offset-2 hover:cursor-pointer`}>
                         Clique aqui para acessar
                     </div>
                 </Link>

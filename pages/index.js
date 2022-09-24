@@ -4,7 +4,7 @@ import Footer from '../components/footer'
 import Link from 'next/link'
 export default function Home() {
     return (
-        <div className = {`bg-slate-100 h-screen w-screen`}>
+        <div className = {`bg-slate-100 h-screen w-screen to aqui`}>
             <div className = {`font-semibold font-sans flex flex-col`}>    
                 <div className = {`text-4xl ml-8 mt-8`}>Olá !</div>
                 <div className = {`text-2xl ml-8`}>Seja bem-vindo</div>

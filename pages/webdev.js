@@ -3,7 +3,7 @@ import Footer from "../components/footer.js"
 
 export default function Webdev() {
     return ( 
-        <div className = {`container bg-slate-100 min-h-screen min-w-screen font-semibold font-serif`}>
+        <div className = {`bg-slate-100 min-h-screen min-w-screen font-semibold font-serif`}>
             <div className = {`text-3xl pt-4 pl-4`}>
                 Sobre
             </div>

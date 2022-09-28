@@ -1,4 +1,4 @@
-import Card from '../components/card.js'
+i/*mport Card from '../components/card.js'
 import Footer from "../components/footer.js"
 
 export default function Webdev() {
@@ -28,4 +28,4 @@ export default function Webdev() {
             </div>
         </div>
     )
-}
+}*/

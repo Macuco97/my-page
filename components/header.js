@@ -21,9 +21,9 @@ export default function Header() {
             <div className = {style.headerTitle}>Stacks</div>
             <div className = {style.optionsContainer}>
                 {
-                    options.map(option => {
+                    options.map((option, key) => {
                         return (
-                            <Options text = {option}/>
+                            <Options key = {key} text = {option}/>
                         )
                     })
                 }

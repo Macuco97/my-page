@@ -15,9 +15,9 @@ export default function Card({children, href, stacks}) {
                 </div>
                 <div className = {style.stacks}>
                     {
-                    stacks.map(stack => {
+                    stacks.map((stack, index) => {
                         return(
-                            <div className = {style.stack}>{stack}</div>
+                            <div key = {index} className = {style.stack}>{stack}</div>
                         )
                     })
                     }

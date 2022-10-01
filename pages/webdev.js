@@ -1,4 +1,4 @@
-i/*mport Card from '../components/card.js'
+/*mport Card from '../components/card.js'
 import Footer from "../components/footer.js"
 
 export default function Webdev() {

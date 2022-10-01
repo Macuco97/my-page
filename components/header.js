@@ -29,14 +29,14 @@ export default function Header() {
                 }
             </div>
             <div className = {style.headerTitle}>Portfolio</div>
-            <div className = {style.headerSubTitle}>Todos os aplicativos abaixo são prototipos que possuem valores de exemplos e estão conectados em banco de dados de acesso público</div>
+            <div className = {style.headerSubTitle}>Todos os aplicativos abaixo são protótipos que possuem valores de exemplos e estão conectados em banco de dados de acesso público</div>
             <Card href = "https://note-book-ten.vercel.app/" stacks = {["next.js", "mongodb", "bootstrap"]}>
                 <div>Notebook</div>
                 <div>Plataforma com a finalidade de armazenar o levatamento dos devices de um setor técnico de áudiovisual. Versão mobile ainda em construção</div>
             </Card>
             <Card href = "https://queue-manager-rho.vercel.app/" stacks = {["next.js", "mongodb", "tailwind"]}>
                 <div>Queue Manager</div>
-                <div>Plataforma coma finalidade de gerenciar filas. Tem como principal alvo consultórios que funcionam por ordem de chegada, que tendo uma fila online, o paciente não tem a necessidade esperar necessariamente no local</div>
+                <div>Plataforma coma finalidade de gerenciar filas. Tem como principal alvo consultórios que funcionam por ordem de chegada, que tendo uma fila online, o paciente não tem a necessidade de esperar necessariamente no local</div>
             </Card>
         </header>
 

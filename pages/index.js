@@ -8,6 +8,9 @@ export default function Home() {
     
     return (
         <div className = {container}>
+            <head>
+                <title>Raphael Motta</title>
+            </head>
             <Header/>
         </div>
     )

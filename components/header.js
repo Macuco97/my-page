@@ -32,7 +32,7 @@ export default function Header() {
             <div className = {style.headerSubTitle}>Todos os aplicativos abaixo são protótipos que possuem valores de exemplos e estão conectados em banco de dados de acesso público</div>
             <Card href = "https://note-book-ten.vercel.app/" stacks = {["next.js", "mongodb", "bootstrap"]}>
                 <div>Notebook</div>
-                <div>Plataforma com a finalidade de armazenar o levatamento dos devices de um setor técnico de áudiovisual. Versão mobile ainda em construção</div>
+                <div>Plataforma com a finalidade de armazenar o levantamento dos devices de um setor técnico de áudiovisual. Versão mobile ainda em construção</div>
             </Card>
             <Card href = "https://queue-manager-rho.vercel.app/" stacks = {["next.js", "mongodb", "tailwind"]}>
                 <div>Queue Manager</div>

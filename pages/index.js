@@ -1,4 +1,4 @@
-import head from 'next/head'
+import Head from 'next/head'
 import Button from '../components/button'
 import Footer from '../components/footer'
 import Header from '../components/header.js'
@@ -8,9 +8,9 @@ export default function Home() {
     
     return (
         <div className = {container}>
-            <head>
+            <Head>
                 <title>Raphael Motta</title>
-            </head>
+            </Head>
             <Header/>
         </div>
     )

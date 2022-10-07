@@ -2,8 +2,6 @@ import Image from 'next/image'
 import { useState } from 'react'
 
 export default function Navbar({activeImage, setActiveImage}) {
-    
-    
     const navbar = `mt-8 flex flex-row w-screen justify-center self-end`
     const imageManutencao =  activeImage === 'manutencao' ? ' duration-500 translate-y-6 shadow-2xl shadow-green-500/50 rounded-md' : 'shadow-2xl duration-500 translate-y-0 opacity-50 rounded-md'
     const imageSite = activeImage === 'site' ? 'duration-500 translate-y-6 shadow-2xl shadow-green-500/50 rounded-md' : 'shadow-2xl duration-500 translate-y-0 opacity-50 rounded-md'
